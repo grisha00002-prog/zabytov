@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Боты — ZABYTOV</title>
+<meta name="description" content="Бот в Telegram, который отвечает клиентам, принимает заявки и напоминает о записи.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0e0e0d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230e0e0d'/%3E%3Cpath d='M9 9h14v3.4L14.6 19.6H23V23H9v-3.4l8.4-7.2H9z' fill='%23c8ff4d'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,900;1,900&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<script>(function(h){h.className='js';try{if(sessionStorage.getItem('zv')==='1'&&!/still/.test(location.search)&&!matchMedia('(prefers-reduced-motion: reduce)').matches){sessionStorage.removeItem('zv');h.className='js enter';setTimeout(function(){h.classList.remove('enter')},400)}}catch(e){}})(document.documentElement)</script>
+</head>
+<body>
+<div class="veil" aria-hidden="true"></div>
+<header class="top">
+  <a class="logo" href="index.html" aria-label="ZABYTOV, на главную">ZABYTOV<span class="sl" aria-hidden="true">//////</span></a>
+  <nav class="nav" aria-label="Разделы"><a href="works.html">Работы</a><a href="services.html" aria-current="page">Услуги</a><a href="try.html">Примерка</a><a href="price.html">Цены</a><a href="about.html">Обо мне</a><a href="contact.html">Контакты</a></nav>
+  <span class="clock" title="Время в Москве">MSK <b class="js-time">--:--</b></span>
+  <a class="btn pri" href="contact.html">Написать <i>↗</i></a>
+  <button class="btn burger" id="burger" type="button" aria-controls="menu" aria-expanded="false">Меню</button>
+</header>
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Меню">
+  <div class="menu-top"><a class="logo" href="index.html">ZABYTOV<span class="sl" aria-hidden="true">//////</span></a><button class="btn" id="mclose" type="button">Закрыть</button></div>
+  <ol><li><a href="index.html"><span>01</span>Главная</a></li><li><a href="works.html"><span>02</span>Работы</a></li><li><a href="services.html" aria-current="page"><span>03</span>Услуги</a></li><li><a href="try.html"><span>04</span>Примерка</a></li><li><a href="price.html"><span>05</span>Цены</a></li><li><a href="about.html"><span>06</span>Обо мне</a></li><li><a href="contact.html"><span>07</span>Контакты</a></li></ol>
+  <div class="menu-low"><p class="mono dim">MSK <span class="js-time">--:--</span> · <span class="js-status">Отвечаю в течение дня</span></p><a class="btn pri big" href="contact.html">Написать <i>↗</i></a></div>
+</div>
+<main>
+
+<section class="ph">
+  <div class="crumb"><a href="index.html">Главная</a><span>/</span><a href="services.html">Услуги</a><span>/</span><span>Боты</span></div>
+  <h1><span class="ln" style="--d:0ms"><span>Боты</span></span></h1>
+  <div class="ph-low"><p class="lead rv">Бот в Telegram, который отвечает клиентам, принимает заявки и напоминает о записи.</p>
+  <dl class="meta rv"><div><dt>Цена</dt><dd>по задаче</dd></div><div><dt>Срок</dt><dd>зависит от задачи</dd></div><div><dt>От вас</dt><dd>Частые вопросы клиентов и ваши ответы на них</dd></div></dl></div>
+</section>
+<section class="sec wrap" style="padding-top:0"><div class="lab rv"><b>Что входит</b><span>(06)</span></div><div class="cells"><div class="cell rv" style="--d:0ms"><span class="mono">Входит</span><h3>Ответы на вопросы</h3><p>Цены, адрес, часы работы: бот отвечает сразу и одинаково вежливо.</p></div><div class="cell rv" style="--d:80ms"><span class="mono">Входит</span><h3>Приём заявок</h3><p>Собирает имя, услугу и удобное время, передаёт вам.</p></div><div class="cell rv" style="--d:160ms"><span class="mono">Входит</span><h3>Напоминания</h3><p>Напоминает клиенту о записи за день и за час.</p></div><div class="cell rv" style="--d:0ms"><span class="mono">Входит</span><h3>Рассылки</h3><p>Новости и акции вашим клиентам одним сообщением.</p></div><div class="cell rv" style="--d:80ms"><span class="mono">Входит</span><h3>Передача человеку</h3><p>Сложный вопрос бот переводит на вас.</p></div><div class="cell rv" style="--d:160ms"><span class="mono">Входит</span><h3>Круглые сутки</h3><p>Работает ночью и в выходные, заявки не теряются.</p></div></div></section>
+<section class="sec wrap" style="padding-top:0"><div class="lab rv"><b>Как это выглядит</b><span>Пример</span></div><div style="margin-top:clamp(28px,4vw,56px)"><div class="g12" style="align-items:center"><div class="c-1-5"><div class="phone rv"><div style="border-radius:19px;background:#0e0e0d;padding:18px 12px 22px;min-height:480px;display:flex;flex-direction:column;gap:8px"><p class="mono dim" style="margin-bottom:6px">Бот салона · онлайн</p><p style="max-width:86%;padding:10px 12px;border-radius:4px;font-size:.9375rem;line-height:1.35;margin-left:auto;background:#c8ff4d;color:#0e0e0d">Здравствуйте! Сколько стоит стрижка?</p><p style="max-width:86%;padding:10px 12px;border-radius:4px;font-size:.9375rem;line-height:1.35;background:#1e1e1c;color:#d9d5c7">Мужская стрижка стоит 1 500 ₽, занимает час. Записать вас?</p><p style="max-width:86%;padding:10px 12px;border-radius:4px;font-size:.9375rem;line-height:1.35;margin-left:auto;background:#c8ff4d;color:#0e0e0d">Да, на сегодня вечером</p><p style="max-width:86%;padding:10px 12px;border-radius:4px;font-size:.9375rem;line-height:1.35;background:#1e1e1c;color:#d9d5c7">Сегодня свободно 18:00 и 19:30. Какое время удобнее?</p><div style="display:flex;gap:6px;margin-top:4px"><span class="mono" style="padding:9px 12px;border:1px solid #3a3a36;border-radius:4px">18:00</span><span class="mono" style="padding:9px 12px;border:1px solid #3a3a36;border-radius:4px">19:30</span></div><p style="max-width:86%;padding:10px 12px;border-radius:4px;font-size:.9375rem;line-height:1.35;margin-left:auto;background:#c8ff4d;color:#0e0e0d">18:00</p><p style="max-width:86%;padding:10px 12px;border-radius:4px;font-size:.9375rem;line-height:1.35;background:#1e1e1c;color:#d9d5c7">Записал на 18:00. Напомню за час.</p></div></div></div><div class="c-6-12 stack rv"><p class="lead">Пример переписки с ботом.</p><p class="dim">Бот, личный кабинет и оплату я уже сделал для своего сервиса ZetVPN. Под вашу задачу соберу демо бесплатно.</p><div style="display:flex;flex-wrap:wrap;gap:10px"><a class="btn " href="work-zet.html">Смотреть ZetVPN <i>↗</i></a> <a class="btn pri" href="contact.html">Попросить демо <i>↗</i></a></div></div></div></div></section>
+<section class="bone sec wrap"><div class="lab rv"><b>Как идёт работа</b><span>4 шага</span></div><div class="steps"><div class="step rv"><span class="n">Шаг A</span><h3>Собираем вопросы</h3><p>Вы рассказываете, о чём клиенты спрашивают чаще всего.</p></div><div class="step rv"><span class="n">Шаг B</span><h3>Пишу сценарий</h3><p>Как бот здоровается, что предлагает и когда зовёт вас.</p></div><div class="step rv"><span class="n">Шаг C</span><h3>Проверяем</h3><p>Вы переписываетесь с ботом сами и говорите, что поправить.</p></div><div class="step rv"><span class="n">Шаг D</span><h3>Запускаем</h3><p>Бот начинает отвечать клиентам, вы получаете заявки.</p></div></div>
+  <div class="rv" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:28px"><a class="btn pri big" href="contact.html">Обсудить задачу <i>↗</i></a><a class="btn big" href="price.html">Цены <i>↗</i></a></div></section>
+<a class="next" href="automation.html"><span class="mono dim">Следующая услуга</span><span class="t">Автоматизация <i>↗</i></span></a>
+
+</main>
+<footer class="foot">
+  <div class="foot-g">
+    <div><h3 class="mono">Работы</h3><ul><li><a href="work-zet.html">ZetVPN</a></li><li><a href="work-britva.html">Бритва</a></li><li><a href="work-mado.html">Мадо</a></li><li><a href="work-klever.html">Клевер</a></li><li><a href="works.html">Все работы</a></li></ul></div>
+    <div><h3 class="mono">Услуги</h3><ul><li><a href="sites.html">Сайты</a></li><li><a href="miniapps.html">Мини-аппы</a></li><li><a href="bots.html">Боты</a></li><li><a href="automation.html">Автоматизация</a></li></ul></div>
+    <div><h3 class="mono">Сайт</h3><ul><li><a href="try.html">Примерка</a></li><li><a href="price.html">Цены</a></li><li><a href="about.html">Обо мне</a></li><li><a href="contact.html">Контакты</a></li></ul></div>
+    <div><h3 class="mono">Связь</h3><ul><li><a href="contact.html" data-contact="tg">Telegram</a></li><li><a href="contact.html" data-contact="wa">WhatsApp</a></li><li class="dim js-status">Отвечаю в течение дня</li></ul></div>
+  </div>
+  <div class="foot-low"><span>© 2026 Гриша Забытов</span><span>Подольск · работаю с любым городом</span><span>MSK <span class="js-time">--:--</span></span></div>
+  <div class="wm-wrap"><p class="wm js-fit" aria-hidden="true">ZABYTOV<span class="sl" aria-hidden="true">//////</span></p></div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="assets/site.js" defer></script>
+</body>
+</html>

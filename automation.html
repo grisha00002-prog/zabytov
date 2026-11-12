@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Автоматизация — ZABYTOV</title>
+<meta name="description" content="Рутина, которая делается сама: заявки попадают в таблицу, а вам приходит уведомление.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0e0e0d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230e0e0d'/%3E%3Cpath d='M9 9h14v3.4L14.6 19.6H23V23H9v-3.4l8.4-7.2H9z' fill='%23c8ff4d'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,900;1,900&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<script>(function(h){h.className='js';try{if(sessionStorage.getItem('zv')==='1'&&!/still/.test(location.search)&&!matchMedia('(prefers-reduced-motion: reduce)').matches){sessionStorage.removeItem('zv');h.className='js enter';setTimeout(function(){h.classList.remove('enter')},400)}}catch(e){}})(document.documentElement)</script>
+</head>
+<body>
+<div class="veil" aria-hidden="true"></div>
+<header class="top">
+  <a class="logo" href="index.html" aria-label="ZABYTOV, на главную">ZABYTOV<span class="sl" aria-hidden="true">//////</span></a>
+  <nav class="nav" aria-label="Разделы"><a href="works.html">Работы</a><a href="services.html" aria-current="page">Услуги</a><a href="try.html">Примерка</a><a href="price.html">Цены</a><a href="about.html">Обо мне</a><a href="contact.html">Контакты</a></nav>
+  <span class="clock" title="Время в Москве">MSK <b class="js-time">--:--</b></span>
+  <a class="btn pri" href="contact.html">Написать <i>↗</i></a>
+  <button class="btn burger" id="burger" type="button" aria-controls="menu" aria-expanded="false">Меню</button>
+</header>
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Меню">
+  <div class="menu-top"><a class="logo" href="index.html">ZABYTOV<span class="sl" aria-hidden="true">//////</span></a><button class="btn" id="mclose" type="button">Закрыть</button></div>
+  <ol><li><a href="index.html"><span>01</span>Главная</a></li><li><a href="works.html"><span>02</span>Работы</a></li><li><a href="services.html" aria-current="page"><span>03</span>Услуги</a></li><li><a href="try.html"><span>04</span>Примерка</a></li><li><a href="price.html"><span>05</span>Цены</a></li><li><a href="about.html"><span>06</span>Обо мне</a></li><li><a href="contact.html"><span>07</span>Контакты</a></li></ol>
+  <div class="menu-low"><p class="mono dim">MSK <span class="js-time">--:--</span> · <span class="js-status">Отвечаю в течение дня</span></p><a class="btn pri big" href="contact.html">Написать <i>↗</i></a></div>
+</div>
+<main>
+
+<section class="ph">
+  <div class="crumb"><a href="index.html">Главная</a><span>/</span><a href="services.html">Услуги</a><span>/</span><span>Автоматизация</span></div>
+  <h1><span class="ln" style="--d:0ms"><span>Автоматизация</span></span></h1>
+  <div class="ph-low"><p class="lead rv">Рутина, которая делается сама: заявки попадают в таблицу, а вам приходит уведомление.</p>
+  <dl class="meta rv"><div><dt>Цена</dt><dd>по задаче</dd></div><div><dt>Срок</dt><dd>зависит от задачи</dd></div><div><dt>От вас</dt><dd>Описание того, что вы сейчас делаете руками</dd></div></dl></div>
+</section>
+<section class="sec wrap" style="padding-top:0"><div class="lab rv"><b>Что входит</b><span>(06)</span></div><div class="cells"><div class="cell rv" style="--d:0ms"><span class="mono">Входит</span><h3>Заявки в таблицу</h3><p>Каждая заявка с сайта или из бота сама попадает в таблицу.</p></div><div class="cell rv" style="--d:80ms"><span class="mono">Входит</span><h3>Уведомления</h3><p>Новая заявка сразу приходит вам в мессенджер.</p></div><div class="cell rv" style="--d:160ms"><span class="mono">Входит</span><h3>Автоответы</h3><p>Клиент получает подтверждение, пока вы заняты.</p></div><div class="cell rv" style="--d:0ms"><span class="mono">Входит</span><h3>Отчёты</h3><p>Раз в неделю короткая сводка: сколько заявок и откуда.</p></div><div class="cell rv" style="--d:80ms"><span class="mono">Входит</span><h3>Связка сервисов</h3><p>Сайт, бот, таблица и мессенджер работают как одно целое.</p></div><div class="cell rv" style="--d:160ms"><span class="mono">Входит</span><h3>Нейросети для рутины</h3><p>Черновики ответов и текстов готовятся автоматически.</p></div></div></section>
+<section class="sec wrap" style="padding-top:0"><div class="lab rv"><b>Как это выглядит</b><span>Пример</span></div><div style="margin-top:clamp(28px,4vw,56px)"><div class="g12" style="align-items:center"><div class="c-1-5"><div class="rv" style="display:flex;flex-wrap:wrap;align-items:stretch;gap:10px"><div style="flex:1 1 110px;padding:18px;border:1px solid #3a3a36;border-radius:4px;"><p class="mono" style="color:#8d8a7e">Шаг A</p><p style="margin-top:28px;font:500 1.25rem/1.1 var(--sans);letter-spacing:-.02em;text-transform:uppercase">Заявка с сайта</p></div><div style="flex:1 1 110px;padding:18px;border:1px solid #3a3a36;border-radius:4px;"><p class="mono" style="color:#8d8a7e">Шаг B</p><p style="margin-top:28px;font:500 1.25rem/1.1 var(--sans);letter-spacing:-.02em;text-transform:uppercase">Таблица</p></div><div style="flex:1 1 110px;padding:18px;border:1px solid #3a3a36;border-radius:4px;"><p class="mono" style="color:#8d8a7e">Шаг C</p><p style="margin-top:28px;font:500 1.25rem/1.1 var(--sans);letter-spacing:-.02em;text-transform:uppercase">Автоответ клиенту</p></div><div style="flex:1 1 110px;padding:18px;border:1px solid #c8ff4d;border-radius:4px;background:#c8ff4d;color:#0e0e0d"><p class="mono" style="">Готово</p><p style="margin-top:28px;font:500 1.25rem/1.1 var(--sans);letter-spacing:-.02em;text-transform:uppercase">Сообщение вам</p></div></div></div><div class="c-6-12 stack rv"><p class="lead">Схема: от заявки до уведомления.</p><p class="dim">Соберу демо под вашу задачу бесплатно, чтобы вы увидели всё вживую.</p><div style="display:flex;flex-wrap:wrap;gap:10px"><a class="btn pri" href="contact.html">Попросить демо <i>↗</i></a></div></div></div></div></section>
+<section class="bone sec wrap"><div class="lab rv"><b>Как идёт работа</b><span>4 шага</span></div><div class="steps"><div class="step rv"><span class="n">Шаг A</span><h3>Разбираем рутину</h3><p>Что вы делаете каждый день руками и где теряется время.</p></div><div class="step rv"><span class="n">Шаг B</span><h3>Предлагаю схему</h3><p>Простая картинка: что куда попадает и кто что получает.</p></div><div class="step rv"><span class="n">Шаг C</span><h3>Настраиваю</h3><p>Соединяю сервисы и проверяю на тестовых заявках.</p></div><div class="step rv"><span class="n">Шаг D</span><h3>Передаю</h3><p>Показываю, как всё работает, и остаюсь на связи.</p></div></div>
+  <div class="rv" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:28px"><a class="btn pri big" href="contact.html">Обсудить задачу <i>↗</i></a><a class="btn big" href="price.html">Цены <i>↗</i></a></div></section>
+<a class="next" href="sites.html"><span class="mono dim">Следующая услуга</span><span class="t">Сайты <i>↗</i></span></a>
+
+</main>
+<footer class="foot">
+  <div class="foot-g">
+    <div><h3 class="mono">Работы</h3><ul><li><a href="work-zet.html">ZetVPN</a></li><li><a href="work-britva.html">Бритва</a></li><li><a href="work-mado.html">Мадо</a></li><li><a href="work-klever.html">Клевер</a></li><li><a href="works.html">Все работы</a></li></ul></div>
+    <div><h3 class="mono">Услуги</h3><ul><li><a href="sites.html">Сайты</a></li><li><a href="miniapps.html">Мини-аппы</a></li><li><a href="bots.html">Боты</a></li><li><a href="automation.html">Автоматизация</a></li></ul></div>
+    <div><h3 class="mono">Сайт</h3><ul><li><a href="try.html">Примерка</a></li><li><a href="price.html">Цены</a></li><li><a href="about.html">Обо мне</a></li><li><a href="contact.html">Контакты</a></li></ul></div>
+    <div><h3 class="mono">Связь</h3><ul><li><a href="contact.html" data-contact="tg">Telegram</a></li><li><a href="contact.html" data-contact="wa">WhatsApp</a></li><li class="dim js-status">Отвечаю в течение дня</li></ul></div>
+  </div>
+  <div class="foot-low"><span>© 2026 Гриша Забытов</span><span>Подольск · работаю с любым городом</span><span>MSK <span class="js-time">--:--</span></span></div>
+  <div class="wm-wrap"><p class="wm js-fit" aria-hidden="true">ZABYTOV<span class="sl" aria-hidden="true">//////</span></p></div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="assets/site.js" defer></script>
+</body>
+</html>
